@@ -7,6 +7,10 @@ A fully functional job portal built with the MERN stack (MongoDB, Express.js, Re
 
 ## 📸 Screenshots
 > Add screenshots after running the project
+<img width="1872" height="897" alt="image" src="https://github.com/user-attachments/assets/f22156ce-e31d-4b83-843d-40e3c69d8475" />
+<img width="1827" height="867" alt="image" src="https://github.com/user-attachments/assets/7be9ce62-ff83-4bf7-9f33-4a8fd9478217" />
+<img width="1820" height="836" alt="image" src="https://github.com/user-attachments/assets/07b656a4-24d2-4497-b1d1-141386b2d266" />
+<img width="1807" height="860" alt="image" src="https://github.com/user-attachments/assets/073ce7f5-d6ab-40aa-88a4-9fb4a2b3186e" />
 
 ---
 
