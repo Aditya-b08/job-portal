@@ -1,0 +1,50 @@
+.job-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+.job-main { display: flex; flex-direction: column; gap: 20px; }
+
+.job-header-card { padding: 28px; }
+.job-title-row { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 16px; }
+.company-logo-lg {
+  width: 64px; height: 64px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white; font-size: 28px; font-weight: 700;
+  border-radius: 14px; display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.job-title-row h1 { font-size: 24px; font-weight: 700; margin-bottom: 4px; }
+.job-title-row .company-name { color: var(--text-light); font-size: 15px; }
+
+.job-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+
+.apply-btn { margin-top: 8px; }
+
+.apply-form { padding: 24px; }
+.apply-form h3 { font-size: 18px; font-weight: 600; margin-bottom: 16px; }
+
+.card h2 { font-size: 20px; font-weight: 600; padding: 24px 24px 16px; border-bottom: 1px solid var(--border); }
+.job-description { padding: 20px 24px; color: var(--text); line-height: 1.8; white-space: pre-line; }
+
+.job-section { padding: 16px 24px 24px; }
+.job-section h3 { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.skills-list { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.job-sidebar { display: flex; flex-direction: column; gap: 20px; position: sticky; top: 90px; }
+.sidebar-card { padding: 24px; }
+.sidebar-card h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; }
+
+.overview-list { display: flex; flex-direction: column; gap: 12px; }
+.overview-list div { display: flex; justify-content: space-between; align-items: center; font-size: 14px; }
+.overview-list span { color: var(--text-light); }
+.overview-list strong { color: var(--text); }
+
+.company-about { font-size: 14px; color: var(--text-light); line-height: 1.7; margin-bottom: 16px; }
+
+@media (max-width: 900px) {
+  .job-detail-grid { grid-template-columns: 1fr; }
+  .job-sidebar { position: static; }
+}
